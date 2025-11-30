@@ -17,6 +17,7 @@ Given a tabular dataset (e.g., the Bank Marketing dataset), MLInsightX:
   - clarity, correctness, completeness, actionability.
 6. **Packages the outputs** into:
   - `mlinsightx_report.json`
+  - `mlinsightx_report.pdf`
   - a folder of PDP plots.
 On top of that, the project wires these pieces into a **multi-agent system** using Google ADK, so the whole flow feels like talking to one orchestrator agent.
 ---
