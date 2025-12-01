@@ -50,7 +50,7 @@ On top of that, the project wires these pieces into a **multi-agent system** usi
  - `InMemoryRunner` with in-memory session/memory services.
  - Shared `artifacts` dict as a simple memory bank in the notebook.
 - **Context Engineering**:
- - Compact prompts (top-K features, short summaries) for Gemini.
+ - Compact prompts for Gemini.
 - **Agent Evaluation**:
  - LLM-as-judge scoring of the narrative.
 ---
