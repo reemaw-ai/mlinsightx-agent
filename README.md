@@ -50,7 +50,7 @@ On top of that, the project wires these pieces into a **multi-agent system** usi
  - Custom function tools for metrics, SHAP, perm, and PDP summaries.
 - **Sessions & Memory**:
  - `InMemoryRunner` with in-memory session/memory services.
- - Shared `artifacts` dict as a simple memory bank in the notebook.
+ - Shared `artifacts` dict as artifacts in the notebook.
 - **Context Engineering**:
  - Compact prompts for Gemini.
 - **Agent Evaluation**:
