@@ -58,16 +58,9 @@ On top of that, the project wires these pieces into a **multi-agent system** usi
 ```bash
 MLInsightX/
 ├── README.md
-├── notebook/
-│   └── MLInsightX_Kaggle_Notebook.ipynb
-├── docs/
-│   ├── MLInsightX Agent Architecture.pdf
-│   ├── thumbnail.png
-│   └── project_description.pdf
-├── output_samples/
-│   ├── mlinsightx_report.json
-|   ├── mlinsightx_report.pdf
-│   ├── pdp_plots/
-│   └── sample_narrative.txt
-└── assets/
-   └── video_thumbnail.png
+├── MLInsightX_Kaggle_Notebook.ipynb
+├── MLInsightX Agent Architecture.pdf
+├── thumbnail.png
+├── mlinsightx_report.json
+├── mlinsightx_report.pdf
+
