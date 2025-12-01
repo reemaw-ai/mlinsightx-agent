@@ -29,7 +29,7 @@ On top of that, the project wires these pieces into a **multi-agent system** usi
 2. **Explainer Agent (Python + Tools)**  
   - `compute_shap_values`  
   - `compute_permutation_importance`  
-  - `compute_pdp` (safe on transformed features, skips constant ones).  
+  - `compute_pdp` 
   - Produces a compact “global explanation” summary.
 3. **Narrative Agent (Gemini via ADK)**  
   - Takes metrics + global explanation.  
