@@ -1,5 +1,5 @@
 # mlinsightx-agent
-Train -> Explain -> Narrate -> Evaluate - Fully Automated with AI Agents 
+Train -> Explain -> Narrate -> Evaluate -> Report - Fully Automated with AI Agents 
 
 **MLInsightX — A fully automated, multi-agent ML system that trains models, generates explainability artifacts, produces stakeholder narratives, and self-evaluates model quality using Gemini + Google ADK. It takes a tabular dataset, trains a model, generates explainability artifacts, narrates the results for stakeholders, evaluates the quality of that narrative, and packages everything into reusable outputs. This project started from my actual pain as a data scientist: I kept repeating the same pattern (train → explain → summarize) across projects. MLInsightX is my attempt to automate that loop using agents. Built as the final project for the Kaggle 5-Day AI Agent Intensive Course powered by Google.**
 
@@ -34,7 +34,7 @@ On top of that, the project wires these pieces into a **multi-agent system** usi
 3. **Narrative Agent (Gemini via ADK)**  
   - Takes metrics + global explanation.  
   - Generates stakeholder-facing text.
-4. **Judge Agent (Gemini-as-judge)**  
+4. **Judge Agent (LLM-as-judge)**  
   - Scores the narrative and returns a small JSON verdict.
 5. **Reporter Agent**  
   - Writes everything to JSON and saves PDP plots.
