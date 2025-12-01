@@ -62,7 +62,7 @@ MLInsightX/
 ├── notebook/
 │   └── MLInsightX_Kaggle_Notebook.ipynb
 ├── docs/
-│   ├── architecture.png
+│   ├── MLInsightX Agent Architecture.pdf
 │   ├── thumbnail.png
 │   └── project_description.pdf
 ├── output_samples/
