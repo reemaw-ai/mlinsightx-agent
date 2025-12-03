@@ -62,7 +62,7 @@ MLInsightX/
 ├── README.md
 ├── MLInsightX_Kaggle_Notebook.ipynb
 ├── MLInsightX Agent Architecture.pdf
-├── thumbnail.png
+├── MLInsightsX_Thumbnail.jpg
 ├── mlinsightx_report.json
 ├── mlinsightx_report.pdf
 
